@@ -1,0 +1,106 @@
+
+  body{
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.65em;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #27aacb;
+    margin: 0 auto 1.5em auto;
+    line-height: 1em;
+    width: 80%;
+}
+h1{
+    font-size: 2em;    
+}
+h2{
+    font-size: 1.7em;
+}
+h3{
+    font-size: 1.5rem;
+}
+button{
+    background-color:  #f04c2f;
+    color:white;
+    border:none;
+    height: 2rem;
+    border-radius: 0.2em;
+}
+img{
+    width: 80%;
+    margin: 0 auto 1.5em auto;
+}
+p{
+    width: 80%;
+    margin: 0 auto 1.5em auto;
+}
+/* HEADER */
+
+header{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+header img{
+    margin: 25px auto;
+    width: 35%;
+}
+
+/* NAV */
+nav{
+    padding:10%;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    margin-bottom: 1.5em;
+}
+
+/* MAIN */
+.rounded{
+    border-radius: 100%;
+}
+main{
+    margin-bottom: 2em;
+}
+section{
+    margin-bottom: 2em;
+}
+section.red {
+    padding: 3em 0;
+    background-color: #ec231a;
+    color: white
+}
+section.red h2{
+    color:white;
+}
+section.red h3{
+    color:white;
+    margin-bottom: 0;
+}
+section.red p:not(p:nth-of-type(2)){
+    font-style: italic;
+}
+/* FOOTER */
+.footer{
+    background-color: #27aacb;
+    color: #c8e7f0;
+    padding: 2em 0;
+}
+.footer h2{
+
+   color: white;
+    margin-bottom: 1.5em;
+}
+.footer hr{
+    width: 60%;
+    border:none;
+    border-bottom:1px solid #c8e7f0;
+}
+.footer a{
+    color: #c8e7f0;
+}
+.footer p{
+    margin-bottom: 0;
+}
